@@ -19,17 +19,12 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
+				<artifactId>maven-jar-plugin</artifactId>
 				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
 					<archive>
 						<manifest>
-
 							<!-- give full qualified name of your main class -->
 							<mainClass>com.coding.escalier.accelerator.Escalier</mainClass>
-
 						</manifest>
 					</archive>
 				</configuration>
